@@ -60,6 +60,11 @@ However if you run the cake shell it will destroy the file permissions and you w
 oitc <YOUR COMMAND>
 ````
 
+# Documentation
+If you are looking the openITCOCKPIT documentation please open your openITCOCKPIT interface and search Documentation in the menu on the left side
+
+There is also a section for developers
+
 # Have a problem or ideas to improve?
 Please don't hesitate to create a Issue or Pull Request
 
