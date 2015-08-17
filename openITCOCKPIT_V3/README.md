@@ -6,6 +6,21 @@ So easy that everyone can use it: create your entire monitoring configuration wi
 # Content of this Vagrant box
 This Vagrant box will install a the latest stable openITCOCKPIT version
 
+# User credentials
+* Web interface
+E-Mail: vagrant@example.org
+Password: vagrant123
+
+* MySQL
+Username: root
+Password: vagrant
+
+* SSH
+````
+vagrant ssh
+sudo su
+````
+
 # Are you a developer?
 This Vagrant box is not made for developers.
 
