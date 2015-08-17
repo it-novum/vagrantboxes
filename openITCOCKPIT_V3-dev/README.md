@@ -32,6 +32,10 @@ Username: root
 
 Password: vagrant
 
+* phpMyAdmin
+
+https://xxx.xxx.xxx.xxx/phpmyadmin
+
 * SSH
 ````
 vagrant ssh
