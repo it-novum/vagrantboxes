@@ -39,6 +39,9 @@ This Vagrant box is not made for developers.
 
 **If you like to contribute to openITCOCKPIT please use the [openITCOCKPIT_V3-dev](https://github.com/it-novum/vagrantboxes/tree/master/openITCOCKPIT_V3-dev) Vagrant box**
 
+# Documentation
+If you are looking the openITCOCKPIT documentation please open your openITCOCKPIT interface and search Documentation in the menu on the left side
+
 # Have a problem or ideas to improve?
 Please don't hesitate to create a Issue or Pull Request
 
