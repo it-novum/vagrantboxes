@@ -10,5 +10,8 @@ apt-get install vagrant virtualbox
 
 Please check the README inside of the different folders for more information
 
+# Have a problem or ideas to improve?
+Please don't hesitate to create a Issue or Pull Request
+
 # License
 MIT-License

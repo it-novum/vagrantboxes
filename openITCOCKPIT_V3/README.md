@@ -9,4 +9,12 @@ This Vagrant box will install a the latest stable openITCOCKPIT version
 # Are you a developer?
 This Vagrant box is not made for developers.
 
-If you like to contribute to openITCOCKPIT please use the [openITCOCKPIT_V3-dev](asd.de) Vagrant box
+If you like to contribute to openITCOCKPIT please use the [openITCOCKPIT_V3-dev](https://github.com/it-novum/vagrantboxes/tree/master/openITCOCKPIT_V3-dev) Vagrant box
+
+# Have a problem or ideas to improve?
+Please don't hesitate to create a Issue or Pull Request
+
+# Need help or support?
+* Join [#openitcockpit](http://webchat.freenode.net/?channels=openitcockpit) on freenode.net
+* [Community forum](http://openitcockpit.org/forum.html)
+* [it-novum GmbH](http://www.it-novum.com/en/support-openitcockpit-en.html) provides commercial support
