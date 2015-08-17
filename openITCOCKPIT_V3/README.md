@@ -6,6 +6,15 @@ So easy that everyone can use it: create your entire monitoring configuration wi
 # Content of this Vagrant box
 This Vagrant box will install the latest stable version of openITCOCKPIT.
 
+# Quick start guide
+````
+apt-get install vagrant virtualbox
+mkdir openITCOCKPIT_V3
+cd openITCOCKPIT_V3
+wget https://raw.githubusercontent.com/it-novum/vagrantboxes/master/openITCOCKPIT_V3/Vagrantfile
+vagrant up
+````
+
 # User credentials
 * Web interface
 

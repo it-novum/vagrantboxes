@@ -10,6 +10,15 @@ Additionally this box comes with the current **master** branch vom GitHub as a g
 
 This box is perfect to get ready in a few minutes :-)
 
+# Quick start guide
+````
+apt-get install vagrant virtualbox
+mkdir openITCOCKPIT_V3-dev
+cd openITCOCKPIT_V3-dev
+wget https://raw.githubusercontent.com/it-novum/vagrantboxes/master/openITCOCKPIT_V3-dev/Vagrantfile
+vagrant up
+````
+
 # User credentials
 * Web interface
 
