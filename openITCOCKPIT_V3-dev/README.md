@@ -10,6 +10,25 @@ Additionally this box comes with the current **master** branch vom GitHub as a g
 
 This box is perfect to get ready in a few minutes :-)
 
+# User credentials
+* Web interface
+
+E-Mail: vagrant@example.org
+
+Password: vagrant123
+
+* MySQL
+
+Username: root
+
+Password: vagrant
+
+* SSH
+````
+vagrant ssh
+sudo su
+````
+
 # Important directories
 Path of openITCOCKPIT interface (PHP and JavaScript files)
 **/usr/share/openitcockpit/**

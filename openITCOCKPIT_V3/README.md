@@ -4,15 +4,19 @@ openITCOCKPIT is an Open Source system monitoring tool build for different monit
 So easy that everyone can use it: create your entire monitoring configuration with a few clicks due to our smart interface wirtten in PHP
 
 # Content of this Vagrant box
-This Vagrant box will install a the latest stable openITCOCKPIT version
+This Vagrant box will install the latest stable version of openITCOCKPIT.
 
 # User credentials
 * Web interface
+
 E-Mail: vagrant@example.org
+
 Password: vagrant123
 
 * MySQL
+
 Username: root
+
 Password: vagrant
 
 * SSH
@@ -24,7 +28,7 @@ sudo su
 # Are you a developer?
 This Vagrant box is not made for developers.
 
-If you like to contribute to openITCOCKPIT please use the [openITCOCKPIT_V3-dev](https://github.com/it-novum/vagrantboxes/tree/master/openITCOCKPIT_V3-dev) Vagrant box
+**If you like to contribute to openITCOCKPIT please use the [openITCOCKPIT_V3-dev](https://github.com/it-novum/vagrantboxes/tree/master/openITCOCKPIT_V3-dev) Vagrant box**
 
 # Have a problem or ideas to improve?
 Please don't hesitate to create a Issue or Pull Request
