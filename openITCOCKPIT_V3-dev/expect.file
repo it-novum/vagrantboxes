@@ -1,0 +1,43 @@
+spawn "/usr/share/openitcockpit/app/SETUP.sh"
+
+expect "> "
+send "y\n"
+
+expect "> "
+send "y\n"
+
+expect "> "
+send "Vagrant\n"
+
+expect "> "
+send "Box\n"
+
+expect "> "
+send "vagrant@example.org\n"
+
+expect "> "
+send "vagrant123\n"
+
+expect "> "
+send "vagrant123\n"
+
+expect "> "
+send "y\n"
+
+expect "> "
+send "127.0.0.1\n"
+
+expect "> "
+send "openitcockpit@example.org\n"
+
+expect "> "
+send "127.0.0.1\n"
+
+expect "> "
+send "25\n"
+
+expect "> "
+send "\n"
+
+expect "> "
+send "\n"
