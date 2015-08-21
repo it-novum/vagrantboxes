@@ -9,9 +9,9 @@ This Vagrant box will install the current nightly build of openITCOCKPIT.
 # Quick start guide
 ````
 apt-get install vagrant virtualbox
-mkdir openITCOCKPIT_V3
-cd openITCOCKPIT_V3
-wget https://raw.githubusercontent.com/it-novum/vagrantboxes/master/openITCOCKPIT_V3/Vagrantfile
+mkdir openITCOCKPIT_V3-nightly
+cd openITCOCKPIT_V3-nightly
+wget https://raw.githubusercontent.com/it-novum/vagrantboxes/master/openITCOCKPIT_V3-nightly/Vagrantfile
 vagrant up
 ````
 
