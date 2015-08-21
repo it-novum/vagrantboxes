@@ -1,0 +1,27 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure(2) do |config|
+  config.vm.box = "ubuntu/trusty64"
+  config.vm.hostname = "openITCOCKPIT-V3"
+  config.vm.network "private_network", :type => 'dhcp', :name => "VirtualBox Host-Only Ethernet Adapter #2", :adapter => 2
+  config.vm.network :forwarded_port, guest: 22, host: 2222, id: "ssh"
+  config.vm.network :forwarded_port, guest: 80, host: 8080, auto_correct: true
+  config.vm.provider "virtualbox" do |vb|
+    vb.memory = 2084
+    vb.cpus = 2
+  end
+  config.vm.provision "shell", inline: <<-SHELL
+    sudo apt-get update
+    sudo apt-get install -y git expect
+    sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password password vagrant'
+    sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password vagrant'
+    sudo apt-get -y install mysql-server
+    git clone https://github.com/it-novum/vagrantboxes
+    cd vagrantboxes/openITCOCKPIT_V3-dev
+    sudo chmod +x install.sh
+    sudo chmod +x finished.sh
+    sudo ./install.sh
+    ./finished.sh
+  SHELL
+end
