@@ -1,3 +1,7 @@
+# Coming soon
+This Vagrant box isn't final at the moment!
+
+
 # What is openITCOCKPIT?
 openITCOCKPIT is an Open Source system monitoring tool build for different monitoring engines like [Nagios](https://www.nagios.org/) or [Naemon](http://www.naemon.org/).
 

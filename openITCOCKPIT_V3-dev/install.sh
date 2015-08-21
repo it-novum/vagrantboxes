@@ -12,5 +12,9 @@ echo -e 'vagrant\nvagrant' | smbpasswd -a www-data
 service nfs-kernel-server restart
 service smbd restart
 
+cp database.php /usr/share/openitcockpit/app/Config/database.php
+chmod +x /usr/share/openitcockpit/app/UPDATE.sh
+ln -s /usr/share/openitcockpit/app/UPDATE.sh /usr/sbin/openitcockpit-update
+
 # Run openITCOCKPIT setup
 expect expect.file
