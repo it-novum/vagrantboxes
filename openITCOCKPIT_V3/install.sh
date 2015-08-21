@@ -86,9 +86,9 @@ yes | apt-key adv --recv --keyserver hkp://keyserver.ubuntu.com A7D3EAFA
 
 apt-get update
 #Nagios 4 + NDOutils
-apt-get install -y openitcockpit{,-nagios,-ndoutils,-npcd}
+#apt-get install -y openitcockpit{,-nagios,-ndoutils,-npcd}
 
 #Naemon + Statusengine
-#apt-get install -y openitcockpit{,-naemon,-statusengine-naemon,-npcd}
+apt-get install -y openitcockpit{,-naemon,-statusengine-naemon,-npcd}
 
 expect expect.file
