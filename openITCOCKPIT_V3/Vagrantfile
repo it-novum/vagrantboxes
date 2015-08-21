@@ -18,7 +18,7 @@ Vagrant.configure(2) do |config|
     sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password vagrant'
     sudo apt-get -y install mysql-server
     git clone https://github.com/it-novum/vagrantboxes
-    cd vagrantboxes/openITCOCKPIT_V3-dev
+    cd vagrantboxes/openITCOCKPIT_V3
     sudo chmod +x install.sh
     sudo chmod +x finished.sh
     sudo ./install.sh
