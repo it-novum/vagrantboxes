@@ -82,7 +82,7 @@ EOF
 
 echo 'deb https://packages.openitcockpit.com/repositories/trusty trusty main' > /etc/apt/sources.list.d/openitcockpit.list
 echo 'deb https://packages.openitcockpit.com/repositories/trusty nightly main' >> /etc/apt/sources.list.d/openitcockpit.list
-yes | apt-key adv --recv --keyserver hkp://keyserver.ubuntu.com A7D3EAFA
+yes | apt-key adv --recv --keyserver hkp://keyserver.ubuntu.com 1148DA8E
 #wget http://apt.openattic.org/A7D3EAFA.txt -q -O - | apt-key add -
 
 apt-get update
