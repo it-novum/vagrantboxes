@@ -4,9 +4,6 @@ expect "> "
 send "y\n"
 
 expect "> "
-send "y\n"
-
-expect "> "
 send "Vagrant\n"
 
 expect "> "
