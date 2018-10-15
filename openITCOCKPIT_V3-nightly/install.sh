@@ -90,6 +90,6 @@ apt-get update
 #apt-get install -y openitcockpit{,-nagios,-ndoutils,-npcd}
 
 #Naemon + Statusengine
-apt-get install -y apt-get install openitcockpit{,-common,-naemon,-statusengine-naemon,-message}
+apt-get install -y openitcockpit{,-common,-naemon,-statusengine-naemon,-message}
 
 expect expect.file
